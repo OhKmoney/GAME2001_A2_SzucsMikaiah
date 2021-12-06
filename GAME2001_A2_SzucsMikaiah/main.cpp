@@ -48,16 +48,10 @@ int main(void) {
 	cout << ".Front(): ";
 	cout << TestPrio.Front() << endl;
 
-	cout << "Pushing 7 with priority 1" << endl;
+	cout << "Pushing 7 with priority 1 (should be front of queue)" << endl;
 	TestPrio.Push(7, 1);
 
 	cout << ".Front(): ";
-	cout << TestPrio.Front() << endl;
-
-	cout << "Now we will push in a 40 with priority of 5" << endl;
-	TestPrio.Push(40, 5);
-
-	cout << ".Front():  ";
 	cout << TestPrio.Front() << endl;
 
 	cout << "Popping all values out of priority queue" << endl;
